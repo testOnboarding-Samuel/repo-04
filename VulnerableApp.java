@@ -8,6 +8,7 @@ public class VulnerableApp {
     // Hardcoded credentials - SAST issue
     private static final String DB_PASSWORD = "admin123";
     private static final String API_KEY = "sk-1234567890abcdef";
+    private static final String PASSWORD_01 = "secret_here";
 
     // SQL Injection vulnerability
     public User getUserById(String userId) throws SQLException {
